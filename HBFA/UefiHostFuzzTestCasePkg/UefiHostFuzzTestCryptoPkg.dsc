@@ -122,6 +122,13 @@
       IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
       RngLib|MdePkg/Library/BaseRngLibTimerLib/BaseRngLibTimerLib.inf
   }
+  UefiHostFuzzTestCasePkg/TestCase/CryptoPkg/Pem/TestPem.inf {
+    <LibraryClasses>
+      OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
+      BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
+      IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
+      RngLib|MdePkg/Library/BaseRngLibTimerLib/BaseRngLibTimerLib.inf
+  }
   UefiHostFuzzTestCasePkg/TestCase/CryptoPkg/TlsLib/TestTlsSetSig.inf {
     <LibraryClasses>
       OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
